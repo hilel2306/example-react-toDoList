@@ -66,3 +66,24 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# TODOLIST EXAMPLE
+
+## Before the code
+
+First of all, before to talk about code, what is the principle of a to do list ? We want to be able to add tasks, to read the tasks, to mark the tasks as done, and delete them.
+
+## What we need for this ?
+
+We need to get the task entered by the user. We can use an input and this input is a state we can update the value.
+We need to store the tasks entered by the user. We can use an array and this array is a state we can update the value.
+We need to declarate the functions to :
+
+- Add a task
+- Mark the task as done
+- Delete the task
+
+## How it works ?
+
+Each times the user is writing in the input, we udpate the value input state.
+When the user click on the button "Ajouter une tâche", the function "handleAdd" is called, so we _push_ the task in the _array tasks_ and we return each task of the _array tasks_ like a list. If the user click on a task, the function "handleDone" is called, this task is marked as done or not if this task is already done. If the user click on the cross, the function "handleRemove" is called and the task is deleted.
