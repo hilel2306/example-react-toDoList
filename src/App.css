@@ -1,1 +1,69 @@
+.container {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+h1 {
+  font-size: 50px;
+  color: #68737d;
+}
+
+.submit {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  padding: 15px;
+  background-color: #9a4ec6;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 5px;
+  font-size: 20px;
+  color: #68737d;
+}
+
+.tasks-list {
+  list-style-type: none;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  /* background-color: red;   */
+}
+
+.done {
+  text-decoration-line: line-through;
+}
+
+ul {
+  margin-left: -40px;
+}
+
+li {
+  color: #68737d;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+span {
+  cursor: pointer;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.redcross {
+  color: red;
+}
